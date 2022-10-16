@@ -21,7 +21,7 @@ The (planned) ecosystem consists of these parts:
     - [ ]  AUR package search
     - [ ]  Stateless OTP Auth on server
     - [ ]  Build status check
-    - [ ]  Pacman's `.pac*` files management
+    - [ ]  Pacman's `.pac{new,save,orig}` file management
     - [ ]  Managing package upgrades, either of:
       * Upstream tracking request to Mirraur, or
       * Local update checking (in which case the server would possibly be stateless)
@@ -39,7 +39,7 @@ Among planned features are:
 # FAQ
 
 * **Why write everything in a huge mono-file?**<br>
-Multiple files scare me. I like scrolling more than clicking or, even worse, --- browsing.<br>
+Multiple files scare me. I like scrolling more than clicking or, even worse, — browsing.<br>
 Also, my source code browser likes this.
 
 * **Why `asyncio`?**<br>
